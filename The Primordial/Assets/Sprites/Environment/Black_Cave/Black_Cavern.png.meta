@@ -1261,7 +1261,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Black_Cavern_38: -1164368100
+      Black_Cavern_39: 1698463610
       Black_Cavern_43: -87236808
       Black_Cavern_28: -2023521641
       Black_Cavern_10: -408178157
@@ -1314,7 +1314,7 @@ TextureImporter:
       Black_Cavern_12: 554953094
       Black_Cavern_15: 308242530
       Black_Cavern_13: 854750623
-      Black_Cavern_39: 1698463610
+      Black_Cavern_38: -1164368100
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

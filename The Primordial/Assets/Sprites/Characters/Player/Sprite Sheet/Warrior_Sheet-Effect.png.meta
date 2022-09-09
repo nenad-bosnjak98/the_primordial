@@ -441,10 +441,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 704
-        width: 69
-        height: 44
+        x: 18
+        y: 705
+        width: 18
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 704
-        width: 69
-        height: 44
+        x: 87
+        y: 705
+        width: 18
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_2
       rect:
         serializedVersion: 2
-        x: 138
-        y: 704
-        width: 69
-        height: 44
+        x: 155
+        y: 705
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_3
       rect:
         serializedVersion: 2
-        x: 207
-        y: 704
-        width: 69
-        height: 44
+        x: 224
+        y: 705
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_4
       rect:
         serializedVersion: 2
-        x: 276
-        y: 704
-        width: 69
-        height: 44
+        x: 294
+        y: 705
+        width: 18
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_5
       rect:
         serializedVersion: 2
-        x: 345
-        y: 704
-        width: 69
-        height: 44
+        x: 362
+        y: 705
+        width: 19
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +567,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 660
-        width: 69
-        height: 44
+        x: 12
+        y: 661
+        width: 25
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_7
       rect:
         serializedVersion: 2
-        x: 69
-        y: 660
-        width: 69
-        height: 44
+        x: 82
+        y: 664
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +609,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_8
       rect:
         serializedVersion: 2
-        x: 138
-        y: 660
-        width: 69
-        height: 44
+        x: 130
+        y: 663
+        width: 49
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +630,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_9
       rect:
         serializedVersion: 2
-        x: 207
-        y: 660
-        width: 69
-        height: 44
+        x: 218
+        y: 661
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,10 +651,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_10
       rect:
         serializedVersion: 2
-        x: 276
-        y: 660
-        width: 69
-        height: 44
+        x: 288
+        y: 651
+        width: 48
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +672,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_11
       rect:
         serializedVersion: 2
-        x: 345
-        y: 660
-        width: 69
-        height: 44
+        x: 358
+        y: 664
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -693,10 +693,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 616
-        width: 69
-        height: 44
+        x: 11
+        y: 619
+        width: 29
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,10 +714,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_13
       rect:
         serializedVersion: 2
-        x: 69
-        y: 616
-        width: 69
-        height: 44
+        x: 84
+        y: 617
+        width: 22
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,10 +735,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_14
       rect:
         serializedVersion: 2
-        x: 138
-        y: 616
-        width: 69
-        height: 44
+        x: 150
+        y: 617
+        width: 27
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_15
       rect:
         serializedVersion: 2
-        x: 207
-        y: 616
-        width: 69
-        height: 44
+        x: 216
+        y: 608
+        width: 36
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +777,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_16
       rect:
         serializedVersion: 2
-        x: 276
-        y: 616
-        width: 69
-        height: 44
+        x: 287
+        y: 617
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_17
       rect:
         serializedVersion: 2
-        x: 345
-        y: 616
-        width: 69
-        height: 44
+        x: 358
+        y: 617
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +819,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 572
-        width: 69
-        height: 44
+        x: 15
+        y: 573
+        width: 27
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +840,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_19
       rect:
         serializedVersion: 2
-        x: 69
-        y: 572
-        width: 69
-        height: 44
+        x: 82
+        y: 573
+        width: 48
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,10 +861,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_20
       rect:
         serializedVersion: 2
-        x: 138
-        y: 572
-        width: 69
-        height: 44
+        x: 152
+        y: 573
+        width: 50
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +882,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_21
       rect:
         serializedVersion: 2
-        x: 207
-        y: 572
-        width: 69
-        height: 44
+        x: 224
+        y: 571
+        width: 40
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +903,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_22
       rect:
         serializedVersion: 2
-        x: 276
-        y: 572
-        width: 69
-        height: 44
+        x: 257
+        y: 597
+        width: 5
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,10 +924,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_23
       rect:
         serializedVersion: 2
-        x: 345
-        y: 572
-        width: 69
-        height: 44
+        x: 295
+        y: 573
+        width: 24
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,10 +945,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 528
+        x: 345
+        y: 558
         width: 69
-        height: 44
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -966,10 +966,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_25
       rect:
         serializedVersion: 2
-        x: 69
-        y: 528
-        width: 69
-        height: 44
+        x: 0
+        y: 529
+        width: 43
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +987,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_26
       rect:
         serializedVersion: 2
-        x: 138
-        y: 528
-        width: 69
-        height: 44
+        x: 71
+        y: 529
+        width: 39
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_27
       rect:
         serializedVersion: 2
-        x: 207
-        y: 528
-        width: 69
-        height: 44
+        x: 216
+        y: 531
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,10 +1029,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_28
       rect:
         serializedVersion: 2
-        x: 276
-        y: 528
-        width: 69
-        height: 44
+        x: 293
+        y: 564
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1050,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_29
       rect:
         serializedVersion: 2
-        x: 345
-        y: 528
-        width: 69
-        height: 44
+        x: 302
+        y: 551
+        width: 17
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,10 +1071,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 484
-        width: 69
-        height: 44
+        x: 379
+        y: 551
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1092,10 +1092,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_31
       rect:
         serializedVersion: 2
-        x: 69
-        y: 484
-        width: 69
-        height: 44
+        x: 45
+        y: 538
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1113,10 +1113,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_32
       rect:
         serializedVersion: 2
-        x: 138
-        y: 484
-        width: 69
-        height: 44
+        x: 45
+        y: 548
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1134,10 +1134,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_33
       rect:
         serializedVersion: 2
-        x: 207
-        y: 484
-        width: 69
-        height: 44
+        x: 112
+        y: 544
+        width: 7
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1155,10 +1155,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_34
       rect:
         serializedVersion: 2
-        x: 276
-        y: 484
-        width: 69
-        height: 44
+        x: 152
+        y: 529
+        width: 23
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1176,10 +1176,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_35
       rect:
         serializedVersion: 2
-        x: 345
-        y: 484
-        width: 69
-        height: 44
+        x: 281
+        y: 530
+        width: 31
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1197,10 +1197,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 440
-        width: 69
-        height: 44
+        x: 349
+        y: 533
+        width: 29
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1218,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_37
       rect:
         serializedVersion: 2
-        x: 69
-        y: 440
-        width: 69
-        height: 44
+        x: 410
+        y: 546
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1239,10 +1239,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_38
       rect:
         serializedVersion: 2
-        x: 138
-        y: 440
-        width: 69
-        height: 44
+        x: 4
+        y: 485
+        width: 27
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_39
       rect:
         serializedVersion: 2
-        x: 207
-        y: 440
-        width: 69
-        height: 44
+        x: 33
+        y: 504
+        width: 10
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_40
       rect:
         serializedVersion: 2
-        x: 276
-        y: 440
-        width: 69
-        height: 44
+        x: 88
+        y: 514
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1302,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_41
       rect:
         serializedVersion: 2
-        x: 345
-        y: 440
-        width: 69
-        height: 44
+        x: 97
+        y: 507
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 396
-        width: 69
-        height: 44
+        x: 200
+        y: 518
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1344,10 +1344,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_43
       rect:
         serializedVersion: 2
-        x: 69
-        y: 396
-        width: 69
-        height: 44
+        x: 396
+        y: 504
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,10 +1365,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_44
       rect:
         serializedVersion: 2
-        x: 138
-        y: 396
-        width: 69
-        height: 44
+        x: 73
+        y: 485
+        width: 33
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1386,10 +1386,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_45
       rect:
         serializedVersion: 2
-        x: 207
-        y: 396
-        width: 69
-        height: 44
+        x: 84
+        y: 504
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1407,10 +1407,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_46
       rect:
         serializedVersion: 2
-        x: 276
-        y: 396
-        width: 69
-        height: 44
+        x: 156
+        y: 502
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1428,10 +1428,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_47
       rect:
         serializedVersion: 2
-        x: 345
-        y: 396
-        width: 69
-        height: 44
+        x: 176
+        y: 492
+        width: 4
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,10 +1449,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
-        width: 69
-        height: 44
+        x: 208
+        y: 485
+        width: 40
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_49
       rect:
         serializedVersion: 2
-        x: 69
-        y: 352
-        width: 69
-        height: 44
+        x: 277
+        y: 485
+        width: 42
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1491,10 +1491,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_50
       rect:
         serializedVersion: 2
-        x: 138
-        y: 352
-        width: 69
-        height: 44
+        x: 140
+        y: 485
+        width: 37
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1512,10 +1512,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_51
       rect:
         serializedVersion: 2
-        x: 207
-        y: 352
-        width: 69
-        height: 44
+        x: 346
+        y: 485
+        width: 40
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1533,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_52
       rect:
         serializedVersion: 2
-        x: 276
-        y: 352
-        width: 69
-        height: 44
+        x: 1
+        y: 441
+        width: 40
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1554,10 +1554,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_53
       rect:
         serializedVersion: 2
-        x: 345
-        y: 352
-        width: 69
-        height: 44
+        x: 90
+        y: 441
+        width: 19
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1575,10 +1575,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 308
-        width: 69
-        height: 44
+        x: 155
+        y: 441
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1596,10 +1596,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_55
       rect:
         serializedVersion: 2
-        x: 69
-        y: 308
-        width: 69
-        height: 44
+        x: 225
+        y: 441
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1617,10 +1617,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_56
       rect:
         serializedVersion: 2
-        x: 138
-        y: 308
-        width: 69
-        height: 44
+        x: 295
+        y: 441
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1638,10 +1638,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_57
       rect:
         serializedVersion: 2
-        x: 207
-        y: 308
-        width: 69
-        height: 44
+        x: 364
+        y: 443
+        width: 20
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,10 +1659,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_58
       rect:
         serializedVersion: 2
-        x: 276
-        y: 308
-        width: 69
-        height: 44
+        x: 19
+        y: 399
+        width: 20
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,10 +1680,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_59
       rect:
         serializedVersion: 2
-        x: 345
-        y: 308
-        width: 69
-        height: 44
+        x: 88
+        y: 399
+        width: 20
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1701,10 +1701,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 264
-        width: 69
-        height: 44
+        x: 156
+        y: 400
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,10 +1722,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_61
       rect:
         serializedVersion: 2
-        x: 69
-        y: 264
-        width: 69
-        height: 44
+        x: 222
+        y: 400
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1743,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_62
       rect:
         serializedVersion: 2
-        x: 138
-        y: 264
-        width: 69
-        height: 44
+        x: 294
+        y: 397
+        width: 21
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1764,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_63
       rect:
         serializedVersion: 2
-        x: 207
-        y: 264
-        width: 69
-        height: 44
+        x: 363
+        y: 397
+        width: 21
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,10 +1785,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_64
       rect:
         serializedVersion: 2
-        x: 276
-        y: 264
-        width: 69
-        height: 44
+        x: 18
+        y: 353
+        width: 21
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,10 +1806,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_65
       rect:
         serializedVersion: 2
-        x: 345
-        y: 264
-        width: 69
-        height: 44
+        x: 83
+        y: 361
+        width: 19
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1827,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_66
       rect:
         serializedVersion: 2
-        x: 0
-        y: 220
-        width: 69
-        height: 44
+        x: 155
+        y: 354
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1848,10 +1848,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_67
       rect:
         serializedVersion: 2
-        x: 69
-        y: 220
-        width: 69
-        height: 44
+        x: 225
+        y: 354
+        width: 15
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,10 +1869,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_68
       rect:
         serializedVersion: 2
-        x: 138
-        y: 220
-        width: 69
-        height: 44
+        x: 293
+        y: 354
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1890,10 +1890,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_69
       rect:
         serializedVersion: 2
-        x: 207
-        y: 220
-        width: 69
-        height: 44
+        x: 364
+        y: 354
+        width: 14
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,10 +1911,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_70
       rect:
         serializedVersion: 2
-        x: 276
-        y: 220
-        width: 69
-        height: 44
+        x: 19
+        y: 310
+        width: 14
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_71
       rect:
         serializedVersion: 2
-        x: 345
-        y: 220
-        width: 69
-        height: 44
+        x: 88
+        y: 310
+        width: 14
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1953,10 +1953,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_72
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
-        width: 69
-        height: 44
+        x: 155
+        y: 310
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1974,10 +1974,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_73
       rect:
         serializedVersion: 2
-        x: 69
-        y: 176
-        width: 69
-        height: 44
+        x: 224
+        y: 310
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1995,10 +1995,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_74
       rect:
         serializedVersion: 2
-        x: 138
-        y: 176
-        width: 69
-        height: 44
+        x: 294
+        y: 310
+        width: 15
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2016,10 +2016,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_75
       rect:
         serializedVersion: 2
-        x: 207
-        y: 176
-        width: 69
-        height: 44
+        x: 364
+        y: 310
+        width: 14
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2037,10 +2037,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_76
       rect:
         serializedVersion: 2
-        x: 276
-        y: 176
-        width: 69
-        height: 44
+        x: 14
+        y: 266
+        width: 18
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2058,10 +2058,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_77
       rect:
         serializedVersion: 2
-        x: 345
-        y: 176
-        width: 69
-        height: 44
+        x: 85
+        y: 266
+        width: 16
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2079,10 +2079,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 132
-        width: 69
-        height: 44
+        x: 152
+        y: 266
+        width: 18
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2100,10 +2100,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_79
       rect:
         serializedVersion: 2
-        x: 69
-        y: 132
-        width: 69
-        height: 44
+        x: 330
+        y: 294
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2121,10 +2121,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_80
       rect:
         serializedVersion: 2
-        x: 138
-        y: 132
-        width: 69
-        height: 44
+        x: 398
+        y: 288
+        width: 16
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2142,10 +2142,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_81
       rect:
         serializedVersion: 2
-        x: 207
-        y: 132
-        width: 69
-        height: 44
+        x: 223
+        y: 265
+        width: 21
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2163,10 +2163,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_82
       rect:
         serializedVersion: 2
-        x: 276
-        y: 132
-        width: 69
-        height: 44
+        x: 292
+        y: 265
+        width: 21
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2184,10 +2184,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_83
       rect:
         serializedVersion: 2
-        x: 345
-        y: 132
-        width: 69
-        height: 44
+        x: 361
+        y: 265
+        width: 21
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2205,10 +2205,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_84
       rect:
         serializedVersion: 2
-        x: 0
-        y: 88
-        width: 69
-        height: 44
+        x: 54
+        y: 246
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2226,10 +2226,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_85
       rect:
         serializedVersion: 2
-        x: 69
-        y: 88
-        width: 69
-        height: 44
+        x: 155
+        y: 221
+        width: 20
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2247,10 +2247,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_86
       rect:
         serializedVersion: 2
-        x: 138
-        y: 88
-        width: 69
-        height: 44
+        x: 220
+        y: 221
+        width: 29
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2268,10 +2268,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_87
       rect:
         serializedVersion: 2
-        x: 207
-        y: 88
-        width: 69
-        height: 44
+        x: 290
+        y: 207
+        width: 46
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,10 +2289,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_88
       rect:
         serializedVersion: 2
-        x: 276
-        y: 88
-        width: 69
-        height: 44
+        x: 359
+        y: 221
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2310,10 +2310,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_89
       rect:
         serializedVersion: 2
-        x: 345
-        y: 88
-        width: 69
-        height: 44
+        x: 16
+        y: 221
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2331,10 +2331,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_90
       rect:
         serializedVersion: 2
-        x: 0
-        y: 44
-        width: 69
-        height: 44
+        x: 85
+        y: 221
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2352,10 +2352,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_91
       rect:
         serializedVersion: 2
-        x: 69
-        y: 44
-        width: 69
-        height: 44
+        x: 14
+        y: 177
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2373,10 +2373,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_92
       rect:
         serializedVersion: 2
-        x: 138
-        y: 44
-        width: 69
-        height: 44
+        x: 77
+        y: 177
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2394,10 +2394,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_93
       rect:
         serializedVersion: 2
-        x: 207
-        y: 44
-        width: 69
-        height: 44
+        x: 82
+        y: 174
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2415,10 +2415,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_94
       rect:
         serializedVersion: 2
-        x: 276
-        y: 44
-        width: 69
-        height: 44
+        x: 146
+        y: 175
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2436,10 +2436,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_95
       rect:
         serializedVersion: 2
-        x: 345
-        y: 44
-        width: 69
-        height: 44
+        x: 214
+        y: 178
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2457,10 +2457,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_96
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 69
-        height: 44
+        x: 223
+        y: 177
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2478,10 +2478,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_97
       rect:
         serializedVersion: 2
-        x: 69
-        y: 0
-        width: 69
-        height: 44
+        x: 282
+        y: 177
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2499,10 +2499,10 @@ TextureImporter:
       name: Warrior_Sheet-Effect_98
       rect:
         serializedVersion: 2
-        x: 138
-        y: 0
-        width: 69
-        height: 44
+        x: 348
+        y: 177
+        width: 34
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2512,6 +2512,594 @@ TextureImporter:
       bones: []
       spriteID: 167ca87256ecdea00800000000000000
       internalID: 787512443710130017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_99
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 169
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f3048f904625641a1623fe9ae75ce2
+      internalID: 1326408714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_100
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 133
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8881d61e7ba08242b7291c6471ccad0
+      internalID: 1064137948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_101
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 162
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1d77809980a34283618a421552647
+      internalID: 989088058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_102
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d90b371bb95814ea15164472c3b78d
+      internalID: 468067162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_103
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 133
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbe6e79ee94c6c4b88f5cb4063dd8d5
+      internalID: 2041884179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_104
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 133
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab74b0ad9cc9234c825cf0f63a7e8db
+      internalID: 309093969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_105
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 158
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533579d71a3e3c40b2f714d88063cbd
+      internalID: 65213210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_106
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 133
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07648016a78ef5e4a872d9293cf4c2a5
+      internalID: 1742696171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_107
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 89
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b076a748e59ea40b09ad3bac1bda93
+      internalID: 1232869822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_108
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 89
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c143d7929e16449bdf31577f9c1e29
+      internalID: -1384043695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_109
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 133
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c510d457c51b2d647b1b5c2a9bc9300a
+      internalID: -1900982046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_110
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 114
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8f9a02f7e30e748bad0235aa053830
+      internalID: 1600209910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_111
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bc6074a05631f4696c256a31e911fe
+      internalID: 665525222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_112
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 89
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f88fec5dff34a346baf8c044ae17692
+      internalID: -1950849318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_113
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 89
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a676a336b3bb444fad7c51e71e57040
+      internalID: 1029400646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_114
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 89
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bebde885b48034fb83fad8e300197f
+      internalID: -953079540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_115
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 89
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e997a38d7179f47bb746f633a095aa
+      internalID: 1041057859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_116
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 89
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099abdd54e89c74f89980fdae9d9a31
+      internalID: 1418177183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_117
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 45
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16334b2e0532f074eac416c3cffa8357
+      internalID: 1287447223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_118
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 51
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed023587e9c6f0945808b265fd23b511
+      internalID: -35006202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_119
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d981edd1d5f480543a5cb59dfdb98413
+      internalID: 940078420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_120
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 47
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f07839815043d549bf09d6292dbad62
+      internalID: 1269106796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_121
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 49
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b9cd813c5ae494395bd4ecfca849ad
+      internalID: 2056256263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_122
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 51
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723481848a26621478094246bcf79851
+      internalID: 336902971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_123
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9c35f2141cfd24581969d849895a6d
+      internalID: 1867253198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_124
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 3
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6c5e546511a544bb987a3fdb753bd5
+      internalID: 1433262207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_125
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 5
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7ee1938f13dc34a9bff9e32741e683
+      internalID: -300633919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Sheet-Effect_126
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0cf81ae397a9045be93b9c746f2aff
+      internalID: -618590659
       vertices: []
       indices: 
       edges: []
@@ -2528,13 +3116,17 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Warrior_Sheet-Effect_19: -6211648682532063752
+      Warrior_Sheet-Effect_125: -300633919
       Warrior_Sheet-Effect_3: -7105675749794256429
       Warrior_Sheet-Effect_88: -3380132617870049673
       Warrior_Sheet-Effect_17: 3272844186751121127
       Warrior_Sheet-Effect_40: -6130774247032492815
       Warrior_Sheet-Effect_35: 8740081516789230483
+      Warrior_Sheet-Effect_109: -1900982046
       Warrior_Sheet-Effect_79: -7939720171757009327
+      Warrior_Sheet-Effect_123: 1867253198
       Warrior_Sheet-Effect_23: -2164224423321271568
+      Warrior_Sheet-Effect_105: 65213210
       Warrior_Sheet-Effect_42: -8105224185696963899
       Warrior_Sheet-Effect_58: -1406694122392401829
       Warrior_Sheet-Effect_86: -5742998253431553049
@@ -2549,6 +3141,7 @@ TextureImporter:
       Warrior_Sheet-Effect_11: -6179113146597259875
       Warrior_Sheet-Effect_91: -2106872485169043283
       Warrior_Sheet-Effect_73: -5219189033981844993
+      Warrior_Sheet-Effect_112: -1950849318
       Warrior_Sheet-Effect_62: -5110843521143403644
       Warrior_Sheet-Effect_93: -8491356359149837760
       Warrior_Sheet-Effect_53: 8858915403469927737
@@ -2558,23 +3151,31 @@ TextureImporter:
       Warrior_Sheet-Effect_71: -1175057978942713942
       Warrior_Sheet-Effect_44: 3578844115799939244
       Warrior_Sheet-Effect_97: -7685447711378399537
+      Warrior_Sheet-Effect_104: 309093969
+      Warrior_Sheet-Effect_108: -1384043695
       Warrior_Sheet-Effect_0: -3318188226485093758
       Warrior_Sheet-Effect_27: 1619122817114066791
       Warrior_Sheet-Effect_10: -7157502479376193569
       Warrior_Sheet-Effect_37: 8207571220096118977
       Warrior_Sheet-Effect_45: -8346973252730123848
       Warrior_Sheet-Effect_34: 4273360486593703493
+      Warrior_Sheet-Effect_118: -35006202
       Warrior_Sheet-Effect_89: -6656010539272679822
       Warrior_Sheet-Effect_96: -2493374651010981141
       Warrior_Sheet-Effect_83: -5853263684127566195
       Warrior_Sheet-Effect_57: -1765949524758486658
+      Warrior_Sheet-Effect_124: 1433262207
+      Warrior_Sheet-Effect_121: 2056256263
+      Warrior_Sheet-Effect_103: 2041884179
       Warrior_Sheet-Effect_2: -4486162353907066099
       Warrior_Sheet-Effect_14: -7879541775824577086
       Warrior_Sheet-Effect_87: 1550331120443448429
       Warrior_Sheet-Effect_29: 5309330118571133426
+      Warrior_Sheet-Effect_113: 1029400646
       Warrior_Sheet-Effect_59: 3914160388638673933
       Warrior_Sheet-Effect_18: 8629003983396144442
       Warrior_Sheet-Effect_43: 565109345717033213
+      Warrior_Sheet-Effect_117: 1287447223
       Warrior_Sheet-Effect_51: -8179423753346160949
       Warrior_Sheet-Effect_33: 8758733799639075308
       Warrior_Sheet-Effect_52: -1605837713619785204
@@ -2583,25 +3184,34 @@ TextureImporter:
       Warrior_Sheet-Effect_22: -381468241496348146
       Warrior_Sheet-Effect_48: -9068822172998705990
       Warrior_Sheet-Effect_67: 1786230212584650817
+      Warrior_Sheet-Effect_114: -953079540
+      Warrior_Sheet-Effect_116: 1418177183
+      Warrior_Sheet-Effect_102: 468067162
       Warrior_Sheet-Effect_31: -3793288683446833867
       Warrior_Sheet-Effect_1: -1938354968663525734
       Warrior_Sheet-Effect_81: -5551026827497223419
       Warrior_Sheet-Effect_90: -6761883565659206456
+      Warrior_Sheet-Effect_106: 1742696171
+      Warrior_Sheet-Effect_122: 336902971
       Warrior_Sheet-Effect_24: 7378919880078719499
       Warrior_Sheet-Effect_68: 2896272659956946786
+      Warrior_Sheet-Effect_99: 1326408714
       Warrior_Sheet-Effect_74: 8048201136183370311
       Warrior_Sheet-Effect_85: -7703501868747715773
       Warrior_Sheet-Effect_63: -8626763743991069669
       Warrior_Sheet-Effect_5: 8053934741035486310
+      Warrior_Sheet-Effect_101: 989088058
       Warrior_Sheet-Effect_13: -7083850147136336687
       Warrior_Sheet-Effect_36: 4245071895355107723
       Warrior_Sheet-Effect_32: 7809884292531708377
+      Warrior_Sheet-Effect_107: 1232869822
       Warrior_Sheet-Effect_65: -8606690382453196554
       Warrior_Sheet-Effect_30: 2138419889203400846
       Warrior_Sheet-Effect_61: -5647377392427310024
       Warrior_Sheet-Effect_72: 8396084745013482390
       Warrior_Sheet-Effect_98: 787512443710130017
       Warrior_Sheet-Effect_76: 3500951761227251082
+      Warrior_Sheet-Effect_111: 665525222
       Warrior_Sheet-Effect_82: -2437237654950474820
       Warrior_Sheet-Effect_15: -6442761953431332421
       Warrior_Sheet-Effect_25: -50406204238961237
@@ -2615,17 +3225,23 @@ TextureImporter:
       Warrior_Sheet-Effect_78: -1594377132886445991
       Warrior_Sheet-Effect_7: -3637831218265681369
       Warrior_Sheet-Effect_16: -7823500323640422531
+      Warrior_Sheet-Effect_115: 1041057859
       Warrior_Sheet-Effect_21: -6253208296904073923
       Warrior_Sheet-Effect_92: -5691269341329648135
+      Warrior_Sheet-Effect_100: 1064137948
+      Warrior_Sheet-Effect_119: 940078420
+      Warrior_Sheet-Effect_126: -618590659
       Warrior_Sheet-Effect_95: -7781806043594523482
       Warrior_Sheet-Effect_60: 709901728315876072
       Warrior_Sheet-Effect_69: 2127461698910248042
       Warrior_Sheet-Effect_54: 5335032761891035287
       Warrior_Sheet-Effect_70: 8874842850510428824
       Warrior_Sheet-Effect_94: -4479905760731915366
+      Warrior_Sheet-Effect_120: 1269106796
       Warrior_Sheet-Effect_84: 806391716420303315
       Warrior_Sheet-Effect_4: 932576740597027765
       Warrior_Sheet-Effect_80: 4278741268874708782
+      Warrior_Sheet-Effect_110: 1600209910
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
