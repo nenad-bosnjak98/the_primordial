@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
 
     private float jumpForce = 5.0f;
     private bool resetJump = false;
-
-    private bool onGround = false;
+    
+    private float speed = 2.7f;
     
     
     void Start()
@@ -23,33 +23,48 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        float moving = Input.GetAxisRaw("Horizontal"); // Raw values instead of increasing and decreasing ones
-        
 
-        if (Input.GetKeyDown(KeyCode.Space) && onGround == true)
+        Movement();
+        Jump();
+        
+    }
+
+    void Movement()
+    {
+        float moving = Input.GetAxisRaw("Horizontal"); // Raw values instead of increasing and decreasing ones
+        rigidBody.velocity = new Vector2(moving * speed, rigidBody.velocity.y);
+        
+    }
+
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded() == true)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
-            onGround = false;
-            resetJump = true;
             StartCoroutine(ResetJumpRoutine());
         }
+    }
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, 1 << 8);
-        Debug.DrawRay(transform.position, Vector2.down * 0.65f, Color.green);
-        if(hit.collider != null)
+    bool isGrounded()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, groundLayer.value); // For detecting the ground layer underneath character
+
+        // Debug.DrawRay(transform.position, Vector2.down * 0.65f, Color.green);
+
+        if (hit.collider != null)
         {
             if(resetJump == false)
             {
-                onGround = true;
+                return true;
             }
             
         }
-
-        rigidBody.velocity = new Vector2(moving, rigidBody.velocity.y);
+        return false;
     }
 
     IEnumerator ResetJumpRoutine()
     {
+        resetJump = true;
         yield return new WaitForSeconds(0.1f);
         resetJump = false;
     }
