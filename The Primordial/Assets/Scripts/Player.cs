@@ -9,8 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     private LayerMask groundLayer;
 
-    private float jumpForce = 5.0f;
+    private float jumpForce = 6.0f;
     private bool resetJump = false;
+    private bool grounded = false;
     
     private float speed = 2.7f;
 
@@ -31,17 +32,20 @@ public class Player : MonoBehaviour
 
         Movement();
         Jump();
-        
+        Attack();
+
     }
 
     void Movement()
     {
         float moving = Input.GetAxisRaw("Horizontal"); // Raw values instead of increasing and decreasing ones
 
+        grounded = isGrounded();
+
         Flip(moving);
 
         rigidBody.velocity = new Vector2(moving * speed, rigidBody.velocity.y);
-        playerAnim.Run(moving);
+        playerAnim.Move(moving);
     }
 
     void Jump()
@@ -50,19 +54,29 @@ public class Player : MonoBehaviour
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
             StartCoroutine(ResetJumpRoutine());
+            playerAnim.Jump(true);
+        }
+    }
+
+    void Attack()
+    {
+        if(Input.GetMouseButtonDown(0) && isGrounded() == true)
+        {
+            playerAnim.Attack();
         }
     }
 
     bool isGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, groundLayer.value); // For detecting the ground layer underneath character
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.58f, groundLayer.value); // For detecting the ground layer underneath character
 
-        // Debug.DrawRay(transform.position, Vector2.down * 0.65f, Color.green);
+        Debug.DrawRay(transform.position, Vector2.down * 0.65f, Color.green);
 
         if (hit.collider != null)
         {
             if(resetJump == false)
             {
+                playerAnim.Jump(false);
                 return true;
             }
             
