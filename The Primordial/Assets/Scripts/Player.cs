@@ -13,11 +13,16 @@ public class Player : MonoBehaviour
     private bool resetJump = false;
     
     private float speed = 2.7f;
+
+    private PlayerAnimation playerAnim;
+    private SpriteRenderer spriteRenderer;
     
     
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>(); // Rigidbody reference in current game object
+        playerAnim = GetComponent<PlayerAnimation>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     
@@ -32,8 +37,11 @@ public class Player : MonoBehaviour
     void Movement()
     {
         float moving = Input.GetAxisRaw("Horizontal"); // Raw values instead of increasing and decreasing ones
+
+        Flip(moving);
+
         rigidBody.velocity = new Vector2(moving * speed, rigidBody.velocity.y);
-        
+        playerAnim.Run(moving);
     }
 
     void Jump()
@@ -60,6 +68,18 @@ public class Player : MonoBehaviour
             
         }
         return false;
+    }
+
+    void Flip(float move)
+    {
+        if (move > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (move < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
     }
 
     IEnumerator ResetJumpRoutine()
