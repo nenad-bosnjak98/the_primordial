@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private LayerMask groundLayer;
 
-    private float jumpForce = 6.0f;
+    private float jumpForce = 6.5f;
     private bool resetJump = false;
     private bool grounded = false;
     
