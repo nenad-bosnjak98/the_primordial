@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
 
     bool isGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.58f, groundLayer.value); // For detecting the ground layer underneath character
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, groundLayer.value); // For detecting the ground layer underneath character
 
         Debug.DrawRay(transform.position, Vector2.down * 0.65f, Color.green);
 
