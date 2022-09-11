@@ -6,7 +6,7 @@ public abstract class Enemy : MonoBehaviour
 {
     protected int health;
     [SerializeField]
-    protected int speed;
+    protected float speed;
     protected int gems;
     [SerializeField]
     protected Transform pointOne, pointTwo;
