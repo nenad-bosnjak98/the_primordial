@@ -6,11 +6,13 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
 
+    public GameObject midasPrefab;
     [SerializeField]
     protected int health;
     [SerializeField]
     protected float speed;
-    protected int gems;
+    [SerializeField]
+    protected int midasCoins;
     [SerializeField]
     protected Transform pointOne, pointTwo;
 

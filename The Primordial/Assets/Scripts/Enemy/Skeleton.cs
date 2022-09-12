@@ -33,7 +33,12 @@ public class Skeleton : Enemy, IDamageable
 
     public void Damage()
     {
-        Health -= 2;
+        if (isDead == true)
+        {
+            return;
+        }
+
+        Health -= 3;
 
         animator.SetTrigger("Hit");
         isHit = true;
@@ -43,6 +48,8 @@ public class Skeleton : Enemy, IDamageable
         {
             isDead = true;
             animator.SetTrigger("Death");
+            GameObject coin = Instantiate(midasPrefab, transform.position, Quaternion.identity) as GameObject;
+            coin.GetComponent<MidasCoins>().coins = base.midasCoins;
         }
     }
 }

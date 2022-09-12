@@ -13,13 +13,25 @@ public class Mage : Enemy, IDamageable
         Health = health;
     }
 
+    public void Attack()
+    {
+        Instantiate(firePrefab, transform.position, Quaternion.identity);
+    }
+
     public void Damage()
     {
-        Health -= 3;
+        if (isDead == true)
+        {
+            return;
+        }
+
+        Health -= 2;
         if(Health < 1)
         {
             isDead = true;
             animator.SetTrigger("Death");
+            GameObject coin = Instantiate(midasPrefab, transform.position, Quaternion.identity) as GameObject;
+            coin.GetComponent<MidasCoins>().coins = base.midasCoins;
         }
     }
 
@@ -27,11 +39,5 @@ public class Mage : Enemy, IDamageable
     {
         
     }
-
-
-
-    public void Attack()
-    {
-        Instantiate(firePrefab, transform.position, Quaternion.identity);
-    }
+    
 }

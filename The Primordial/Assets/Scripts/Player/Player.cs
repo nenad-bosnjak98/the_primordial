@@ -19,6 +19,8 @@ public class Player : MonoBehaviour, IDamageable
     private PlayerAnimation playerAnim;
     private SpriteRenderer spriteRenderer;
 
+    public int coins;
+
     public int Health { get; set; }
 
     void Start()
