@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeavyBandit : PatrolEnemy, IDamageable
+public class HeavyBandit : Enemy, IDamageable
 {
     public int Health { get; set; }
 
@@ -33,6 +33,7 @@ public class HeavyBandit : PatrolEnemy, IDamageable
         Health -= 2;
 
         animator.SetTrigger("Hit");
+        isHit = true;
         animator.SetBool("InCombat", true);
 
         if (Health < 1)

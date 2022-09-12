@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Skeleton : PatrolEnemy, IDamageable
+public class Skeleton : Enemy, IDamageable
 {
 
     public int Health { get; set; }
@@ -36,6 +36,7 @@ public class Skeleton : PatrolEnemy, IDamageable
         Health -= 2;
 
         animator.SetTrigger("Hit");
+        isHit = true;
         animator.SetBool("InCombat", true);
 
         if (Health < 1)

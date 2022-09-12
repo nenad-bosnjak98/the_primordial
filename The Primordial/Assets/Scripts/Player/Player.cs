@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     private Rigidbody2D rigidBody;
 
     [SerializeField]
     private LayerMask groundLayer;
+    
 
     private float jumpForce = 6.5f;
     private bool resetJump = false;
@@ -17,8 +18,9 @@ public class Player : MonoBehaviour
 
     private PlayerAnimation playerAnim;
     private SpriteRenderer spriteRenderer;
-    
-    
+
+    public int Health { get; set; }
+
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>(); // Rigidbody reference in current game object
@@ -101,5 +103,10 @@ public class Player : MonoBehaviour
         resetJump = true;
         yield return new WaitForSeconds(0.1f);
         resetJump = false;
+    }
+
+    public void Damage()
+    {
+        Debug.Log("Hit!");
     }
 }

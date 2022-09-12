@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightBandit : PatrolEnemy, IDamageable
+public class LightBandit : Enemy, IDamageable
 {
     public int Health { get; set; }
 
@@ -35,6 +35,7 @@ public class LightBandit : PatrolEnemy, IDamageable
         Health -= 2;
 
         animator.SetTrigger("Hit");
+        isHit = true;
         animator.SetBool("InCombat", true);
 
         if (Health < 1)
