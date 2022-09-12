@@ -2,17 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mage : MonoBehaviour
+public class Mage : Enemy, IDamageable
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject firePrefab;
+    public int Health { get; set; }
+
+    public override void Init()
+    {
+        base.Init();
+        Health = health;
+    }
+
+    public void Damage()
+    {
+        Health -= 3;
+        if(Health < 1)
+        {
+            isDead = true;
+            animator.SetTrigger("Death");
+        }
+    }
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    public void Attack()
     {
-        
+        Instantiate(firePrefab, transform.position, Quaternion.identity);
     }
 }

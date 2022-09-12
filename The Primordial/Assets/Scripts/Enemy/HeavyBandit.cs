@@ -38,7 +38,8 @@ public class HeavyBandit : Enemy, IDamageable
 
         if (Health < 1)
         {
-            Destroy(gameObject);
+            isDead = true;
+            animator.SetTrigger("Death");
         }
     }
 

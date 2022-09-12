@@ -20,6 +20,7 @@ public abstract class Enemy : MonoBehaviour
     protected Player player;
 
     protected bool isHit;
+    protected bool isDead = false;
 
     public virtual void Init()
     {
@@ -40,9 +41,13 @@ public abstract class Enemy : MonoBehaviour
         {
             return;
         }
+        if(isDead == false)
+        {
+            FlipWhenStopped();
+            Movement();
+        }
 
-        FlipWhenStopped();
-        Movement();
+        
 
     }
 
