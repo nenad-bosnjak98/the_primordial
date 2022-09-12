@@ -11,4 +11,6 @@ public abstract class Enemy : MonoBehaviour
     protected int gems;
 
     
+
+
 }
