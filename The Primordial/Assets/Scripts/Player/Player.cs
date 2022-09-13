@@ -28,6 +28,7 @@ public class Player : MonoBehaviour, IDamageable
         rigidBody = GetComponent<Rigidbody2D>(); // Rigidbody reference in current game object
         playerAnim = GetComponent<PlayerAnimation>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        Health = 30;
     }
 
     
@@ -110,5 +111,12 @@ public class Player : MonoBehaviour, IDamageable
     public void Damage()
     {
         Debug.Log("Hit!");
+
+    }
+
+    public void AddCoins(int amount)
+    {
+        coins += amount;
+        UIManager.Instance.UpdateCoinCount(coins);
     }
 }
