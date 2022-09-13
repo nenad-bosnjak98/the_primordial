@@ -32,4 +32,14 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator.SetTrigger("Attack");
     }
+
+    public void Death()
+    {
+        animator.SetTrigger("Death");
+    }
+
+    public void Hurt()
+    {
+        animator.SetTrigger("Hit");
+    }
 }

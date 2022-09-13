@@ -26,13 +26,20 @@ public class Mage : Enemy, IDamageable
         }
 
         Health -= 2;
-        if(Health < 1)
+        
+
+        if (Health < 1)
         {
             isDead = true;
             animator.SetTrigger("Death");
             GameObject coin = Instantiate(midasPrefab, transform.position, Quaternion.identity) as GameObject;
             coin.GetComponent<MidasCoins>().coins = base.midasCoins;
         }
+        else
+        {
+            animator.SetTrigger("Hit");
+        }
+        
     }
 
     private void Update()

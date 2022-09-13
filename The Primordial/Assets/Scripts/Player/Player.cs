@@ -28,7 +28,7 @@ public class Player : MonoBehaviour, IDamageable
         rigidBody = GetComponent<Rigidbody2D>(); // Rigidbody reference in current game object
         playerAnim = GetComponent<PlayerAnimation>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        Health = 30;
+        Health = 16;
     }
 
     
@@ -110,8 +110,22 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Damage()
     {
-        Debug.Log("Hit!");
+        if(Health < 1)
+        {
+            return;
+        }
 
+        Debug.Log("Hit!");
+        Health--;
+        UIManager.Instance.UpdateLives(Health);
+        if(Health < 1)
+        {
+            playerAnim.Death();
+        }
+        else
+        {
+            playerAnim.Hurt();
+        }
     }
 
     public void AddCoins(int amount)

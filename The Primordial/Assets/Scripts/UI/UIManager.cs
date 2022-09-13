@@ -20,7 +20,9 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    private int index = 3;
     public Text coinCount;
+    public Image[] healthBars;
 
     public void UpdateCoinCount(int count)
     {
@@ -34,6 +36,18 @@ public class UIManager : MonoBehaviour
 
     public void UpdateLives(int life)
     {
-
+        for(int i = 0; i < life; i++)
+        {
+            if(i == life * 0.75)
+            {
+                healthBars[index].enabled = false;
+                index--;
+                Debug.Log(index);
+            }
+        }
+        if(life == 0)
+        {
+            healthBars[index].enabled = false;
+        }
     }
 }
