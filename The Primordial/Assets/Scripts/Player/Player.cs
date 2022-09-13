@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour, IDamageable
 {
@@ -14,7 +15,8 @@ public class Player : MonoBehaviour, IDamageable
     private float jumpForce = 6.5f;
     private bool resetJump = false;
     private bool grounded = false;
-    
+
+    public int scene;
     private float speed = 2.7f;
 
     private PlayerAnimation playerAnim;
@@ -43,7 +45,8 @@ public class Player : MonoBehaviour, IDamageable
         }
         else if(dead == true)
         {
-            return;
+            StartCoroutine(WaitALittle());
+            SceneManager.LoadScene(1);
         }
         else
         {
@@ -53,14 +56,6 @@ public class Player : MonoBehaviour, IDamageable
         }
         
 
-    }
-
-    private void CheckDialogue()
-    {
-        if(DialogueManager.isActive == true)
-        {
-            return;
-        }
     }
 
     void Movement()
@@ -132,7 +127,10 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Damage()
     {
-        
+        if(dead == true)
+        {
+            return;
+        }
 
         Debug.Log("Hit!");
         Health--;
@@ -161,5 +159,12 @@ public class Player : MonoBehaviour, IDamageable
         UIManager.Instance.UpdateCoinCount(coins);
     }
 
+    IEnumerator WaitALittle()
+    {
+        yield return new WaitForSecondsRealtime(3.0f);
+    }
+
     
+
+
 }

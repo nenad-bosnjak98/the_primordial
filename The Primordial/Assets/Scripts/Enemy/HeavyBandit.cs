@@ -45,7 +45,7 @@ public class HeavyBandit : Enemy, IDamageable
         {
             isDead = true;
             animator.SetTrigger("Death");
-            GameObject coin = Instantiate(midasPrefab, transform.position, Quaternion.identity) as GameObject;
+            GameObject coin = Instantiate(midasPrefab, transform.position, Quaternion.identity) as GameObject; // Instantiates coins when enemy dies
             coin.GetComponent<MidasCoins>().coins = base.midasCoins;
         }
     }

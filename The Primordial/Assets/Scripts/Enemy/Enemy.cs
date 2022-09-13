@@ -39,7 +39,7 @@ public abstract class Enemy : MonoBehaviour
     public virtual void Update()
     {
         
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") && animator.GetBool("InCombat") == false)
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") && animator.GetBool("InCombat") == false) // Prevents the animation from activating
         {
             return;
         }
@@ -74,7 +74,7 @@ public abstract class Enemy : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, currentTargetPosition, speed * Time.deltaTime);
         }
 
-        float distance = Vector3.Distance(transform.localPosition, player.transform.localPosition);
+        float distance = Vector3.Distance(transform.localPosition, player.transform.localPosition); // Distance from player
 
         if (distance > 3.0f)
         {

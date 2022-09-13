@@ -11,9 +11,6 @@ public class DialogueTrigger : MonoBehaviour
     {
         DialogueManager.Instance.OpenConversation(messages, actors);
     }
-
-   
-    
 }
 
 [System.Serializable]

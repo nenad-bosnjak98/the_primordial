@@ -20,7 +20,7 @@ public class LevelChanger : MonoBehaviour
     public void FadeToLevel(int index)
     {
         levelToLoad = index;
-        animator.SetTrigger("FadeTrigger");
+        animator.SetTrigger("FadeTrigger"); // Starts fade and calls animation event OnFade()
     }
 
     public void OnFade()
