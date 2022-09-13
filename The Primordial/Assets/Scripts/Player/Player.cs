@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour, IDamageable
 
     public int coins;
 
+
     public int Health { get; set; }
 
     void Start()
@@ -34,11 +36,26 @@ public class Player : MonoBehaviour, IDamageable
     
     void Update()
     {
+        if(DialogueManager.isActive == true)
+        {
+            playerAnim.Idle();
+        }
+        else
+        {
+            Movement();
+            Jump();
+            Attack();
+        }
+        
 
-        Movement();
-        Jump();
-        Attack();
+    }
 
+    private void CheckDialogue()
+    {
+        if(DialogueManager.isActive == true)
+        {
+            return;
+        }
     }
 
     void Movement()

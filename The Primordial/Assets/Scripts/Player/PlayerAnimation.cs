@@ -18,6 +18,11 @@ public class PlayerAnimation : MonoBehaviour
         
     }
 
+    public void Idle()
+    {
+        animator.SetTrigger("Idle");
+    }
+
     public void Move(float move)
     {
         animator.SetFloat("Move", Mathf.Abs(move));
