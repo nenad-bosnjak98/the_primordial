@@ -21,6 +21,7 @@ public class Player : MonoBehaviour, IDamageable
     private SpriteRenderer spriteRenderer;
 
     public int coins;
+    private bool dead = false;
 
 
     public int Health { get; set; }
@@ -39,6 +40,10 @@ public class Player : MonoBehaviour, IDamageable
         if(DialogueManager.isActive == true)
         {
             playerAnim.Idle();
+        }
+        else if(dead == true)
+        {
+            return;
         }
         else
         {
@@ -127,10 +132,7 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Damage()
     {
-        if(Health < 1)
-        {
-            return;
-        }
+        
 
         Debug.Log("Hit!");
         Health--;
@@ -138,6 +140,7 @@ public class Player : MonoBehaviour, IDamageable
         if(Health < 1)
         {
             playerAnim.Death();
+            dead = true;
         }
         else
         {
@@ -145,9 +148,18 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 
+    public void DamageBySpikes()
+    {
+        playerAnim.Death();
+        dead = true;
+        
+    }
+
     public void AddCoins(int amount)
     {
         coins += amount;
         UIManager.Instance.UpdateCoinCount(coins);
     }
+
+    
 }

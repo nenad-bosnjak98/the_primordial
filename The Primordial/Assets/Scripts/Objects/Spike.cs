@@ -12,7 +12,7 @@ public class Spike : MonoBehaviour
 
             if(player != null)
             {
-                // ...continue
+                player.DamageBySpikes();
             }
         }
     }
